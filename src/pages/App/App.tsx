@@ -1,11 +1,11 @@
 import './App.css';
-import { Title } from '../../components/Title/Title';
+import { LogoAndTitle } from '@components/LogoAndTitle/LogoAndTitle';
 import { ActionBar } from '@components/ActionBar/ActionBar';
 
 function App() {
   return (
     <div>
-      <Title title='Texto aqui' />
+      <LogoAndTitle title='Texto aqui' />
       <ActionBar />
     </div>
   );

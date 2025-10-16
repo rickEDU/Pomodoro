@@ -6,11 +6,11 @@ interface TitleProps {
   title: string;
 }
 
-export function Title(props: TitleProps) {
+export const LogoAndTitle = (props: TitleProps) => {
   return (
     <div className={styles.conteiner}>
       <AlarmClock className={styles.icon} />
       <h1 className={styles.font}>{props.title}</h1>
     </div>
   );
-}
+};
