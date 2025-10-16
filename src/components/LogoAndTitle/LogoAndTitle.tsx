@@ -1,5 +1,5 @@
 import '@styles/global.css';
-import styles from './Title.module.css';
+import styles from './LogoAndTitle.module.css';
 import { AlarmClock } from 'lucide-react';
 
 interface TitleProps {
