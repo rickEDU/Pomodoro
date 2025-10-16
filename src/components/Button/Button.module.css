@@ -1,0 +1,23 @@
+.container {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: var(--cyan-200);
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: var(--cyan-500);
+}
+
+.container svg {
+  stroke: var(--cyan-700);
+  transition: stroke 0.2s;
+}
+
+.container:hover svg {
+  stroke: var(--cyan-100);
+}

@@ -1,0 +1,16 @@
+.font {
+  color: var(--cyan-300);
+  font-weight: 700;
+  margin-top: -1px;
+}
+
+.icon {
+  stroke: var(--cyan-300);
+  height: 7rem;
+  width: 7rem;
+}
+
+.conteiner {
+  width: 100%;
+  margin-bottom: 20%;
+}
