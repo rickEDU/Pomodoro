@@ -1,0 +1,39 @@
+.content {
+  display: table-column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task_description {
+  font-size: clamp(1.2rem, 100%, 2.2rem);
+  color: var(--cyan-100);
+}
+
+.task {
+  font-size: clamp(1.2rem, 100%, 2.2rem);
+  color: var(--cyan-100);
+  min-width: 8rem;
+  max-width: 12rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.task_line {
+  margin: auto;
+  width: clamp(8rem, 50%, 22rem);
+  border-radius: 8px;
+  border-bottom: 0.2rem solid var(--cyan-300);
+}
+
+.timer_description {
+  font-size: clamp(1.2rem, 100%, 2.2rem);
+  color: var(--cyan-100);
+  width: 40rem;
+  white-space: nowrap;
+}
+
+.strong {
+  font-weight: bold;
+}

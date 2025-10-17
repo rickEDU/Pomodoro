@@ -1,23 +1,23 @@
-import { House, TimerReset, Settings, Sun } from 'lucide-react';
+import { HouseIcon, TimerResetIcon, SettingsIcon, SunIcon } from 'lucide-react';
 import { Button } from '@components/Button/Button';
 import styles from './ActionBar.module.css';
 
 export const ActionBar = () => (
-  <div className={styles.container}>
+  <nav className={styles.container}>
     <Button>
-      <House />
+      <HouseIcon size={34} />
     </Button>
 
     <Button>
-      <TimerReset />
+      <TimerResetIcon size={34} />
     </Button>
 
     <Button>
-      <Settings />
+      <SettingsIcon size={34} />
     </Button>
 
     <Button>
-      <Sun />
+      <SunIcon size={34} />
     </Button>
-  </div>
+  </nav>
 );

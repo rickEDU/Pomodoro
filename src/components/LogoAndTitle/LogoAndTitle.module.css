@@ -1,16 +1,16 @@
 .font {
   color: var(--cyan-300);
+  font-size: 3rem;
   font-weight: 700;
   margin-top: -1px;
 }
 
 .icon {
   stroke: var(--cyan-300);
-  height: 7rem;
-  width: 7rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 .conteiner {
   width: 100%;
-  margin-bottom: 20%;
 }
