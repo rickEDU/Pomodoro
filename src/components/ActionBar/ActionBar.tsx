@@ -2,22 +2,40 @@ import { HouseIcon, TimerResetIcon, SettingsIcon, SunIcon } from 'lucide-react';
 import { Button } from '@components/Button/Button';
 import styles from './ActionBar.module.css';
 
-export const ActionBar = () => (
-  <nav className={styles.container}>
-    <Button>
-      <HouseIcon size={34} />
-    </Button>
+export const ActionBar = () => {
+  const handleHome = () => {
+    console.log('Homer');
+  };
 
-    <Button>
-      <TimerResetIcon size={34} />
-    </Button>
+  const handleReset = () => {
+    console.log('Reset');
+  };
 
-    <Button>
-      <SettingsIcon size={34} />
-    </Button>
+  const handleSettings = () => {
+    console.log('Settings');
+  };
 
-    <Button>
-      <SunIcon size={34} />
-    </Button>
-  </nav>
-);
+  const handleTheme = () => {
+    console.log('Theme');
+  };
+
+  return (
+    <nav className={styles.container}>
+      <Button handleOnClick={handleHome}>
+        <HouseIcon size={34} />
+      </Button>
+
+      <Button handleOnClick={handleReset}>
+        <TimerResetIcon size={34} />
+      </Button>
+
+      <Button handleOnClick={handleSettings}>
+        <SettingsIcon size={34} />
+      </Button>
+
+      <Button handleOnClick={handleTheme}>
+        <SunIcon size={34} />
+      </Button>
+    </nav>
+  );
+};

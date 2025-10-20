@@ -1,0 +1,12 @@
+.input {
+  font-size: clamp(1.2rem, 100%, 2.2rem);
+  color: var(--cyan-100);
+  min-width: 8rem;
+  max-width: 12rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  border: none;
+  background: none;
+}

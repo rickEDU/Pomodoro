@@ -3,13 +3,22 @@ import styles from './Button.module.css';
 
 interface ButtonProps {
   children: React.ReactNode;
+  handleOnClick: () => void;
   customStyle?: React.CSSProperties;
 }
 
-export const Button = ({ children, customStyle }: ButtonProps) => {
+export const Button = ({
+  children,
+  handleOnClick,
+  customStyle,
+}: ButtonProps) => {
   return (
-    <div className={styles.container} style={customStyle}>
+    <button
+      className={styles.container}
+      style={customStyle}
+      onClick={handleOnClick}
+    >
       {children}
-    </div>
+    </button>
   );
 };

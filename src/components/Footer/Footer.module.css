@@ -1,0 +1,4 @@
+.footer {
+  color: var(--cyan-200);
+  font-size: clamp(1.2rem, 100%, 2.2rem);
+}

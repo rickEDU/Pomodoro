@@ -5,6 +5,7 @@ import { Section } from '@components/Section/Section';
 import { TimeDisplay } from '@components/TimeDisplay/TimeDisplay';
 import { TaskDescription } from '@components/TaskDescription/TaskDescription';
 import { Cycles } from '@components/Cycles/Cycles';
+import { Footer } from '@components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </Section>
       <Section>
         <Cycles />
+      </Section>
+      <Section>
+        <Footer />
       </Section>
     </div>
   );
