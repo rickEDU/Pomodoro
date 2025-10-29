@@ -8,7 +8,7 @@ interface TimeDisplayProps {
 }
 
 export const TimeDisplay = ({
-  initialTime = 120,
+  initialTime = 0,
   isStartCoutdown = false,
   onFinish,
 }: TimeDisplayProps) => {
